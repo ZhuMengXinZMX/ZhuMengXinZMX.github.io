@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>改变链接</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function changelink() {
+			document.getElementById('my').innerHTML="链接w3school";
+			document.getElementById('my').href="http://www.w3school.com.cn";
+			document.getElementById('my').target="_blank";
+		}
+	</script>
+</head>
+<body>
+	<a href="http://www.microsoft.com" id="my">链接Microsoft</a>
+	<input type="button" onclick="changelink()" value="改变链接">
+	<p>bulabula</p>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>列表样式</title>
+	<style type="text/css">
+		body{
+			margin: 40px auto;
+			width: 500px;
+		}
+		ol{
+			list-style: none;
+			font:15px 'trebuchet MS','lucida sans';
+			text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+		}
+		ol li{
+			margin: 0.4em;
+			padding-left:0.6em; 
+			background-color: #ddd;
+			border-radius: 0.3em;
+		}
+		ol li a{
+			text-decoration: none;
+		}
+		ol li a:beofre{
+			width: 2em;
+			height: 2em;
+			background-color: red;
+		}
+		
+	</style>
+</head>
+<body>
+	<ol class="round-list">
+		<li><a href="">List Item</a></li>
+		<li><a href="">List Item</a></li>
+		<ol>
+			<li><a href="">List Item</a></li>
+			<li><a href="">List Item</a></li>
+		</ol>
+		<li><a href="">List Item</a></li>
+		<li><a href="">List Item</a></li>
+	</ol>
+</body>
+</html>
